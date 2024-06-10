@@ -1,0 +1,59 @@
+
+body{
+    margin-top: 160px;
+    background-image: url("b.jpg");
+    background-size: cover;
+    color: white;
+    margin-right: 450px;
+}
+    h2{
+        font-size:50px;
+        font-style: oblique;
+        color: white;
+        text-decoration: underline;
+    }   
+        nav {
+             /*background-color:grey;*/
+            color: white;
+            padding: 0px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            font-style: oblique;
+            font-size:30px;
+
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin-left: 0px;
+
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h4{
+            font-size: 30px;
+            font-style:oblique;
+        }
+        h5{
+            margin-left:10px;
+            font-size: large;
+        }
+        h1{
+            text-shadow: 5px 5px 10px white;
+            font-size: 50px;
+        }
+        h3{
+            text-decoration: underline;
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }

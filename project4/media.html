@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+     <title>Navigation Menu Example</title>
+     <style>
+        h2{
+            font-size:50px;
+            font-style: oblique;
+            color: white;
+        }   
+            nav {
+                 background-color:skyblue;
+                color: white;
+                padding: 0px;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+                font-style: oblique;
+                font-size:30px;
+    
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                margin-left: 0px;
+    
+            }
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+            h4{
+                font-size: 30px;
+                font-style:oblique;
+            }
+            h5{
+                margin-left:10px;
+                font-size: large;
+            }
+            
+        body {
+           margin: 0 auto;
+           background-color: gold;
+           box-sizing: border-box;
+        }
+       
+          /* Smartphones (portait and landscape )----------  */
+        
+       @media screen and (min-width: 767px)  {
+           body {
+               width: 100%;
+               padding: 5px 10px;
+               font-style: oblique;
+               background-color: antiquewhite;
+           }
+                   }
+
+       /* tablets , iPads (portait and landscape )----------  */
+        
+    @media screen and (min-width: 768px) and (max-width: 1024px)  {
+          
+       body {
+               width: 750px;
+               padding: 5px 10px;
+               font-style: oblique;
+               background-color: blue;
+
+           }
+       }
+
+
+     /* Low resolution Desktops and laptops ----------  */
+        
+     @media screen and (min-width: 1024px)  {
+       body {
+               width: 980px;
+               padding: 5px 15px;
+               background-color: crimson;
+           }
+       }
+ 
+     /* High  resolution Desktops and laptops ----------  */
+        
+     @media screen and (min-width: 1280px)  {
+       body {
+               width: 1200px;
+               padding: 5px 20px;
+               background-color: deeppink;
+           }
+       }
+     
+       
+   </style>
+     
+</head>
+<body>
+    <center>
+    <h1>Welcome to HTML Website</h1>
+    <nav>
+        <ul>
+            <li>Home |</li>
+            <li><a href="C:\Users\HP\Desktop\UI-Nafsha\CSS3\about.html">About |</a></li>
+            <li><a href="C:\Users\HP\Desktop\UI-Nafsha\CSS3\service.html"> Services |</a></li>
+            <li><a href="C:\Users\HP\Desktop\UI-Nafsha\CSS3\portfolio.html"> Portfolio |</a></li>
+            <li><a href="C:\Users\HP\Desktop\UI-Nafsha\CSS3\cont.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form>
+    <p>Login Please..</p>
+        username:<input type="text" ><br><br>
+        password:<input type="password" ><br><br>
+        <button><a href="https://www.tutorialspoint.com/html/index.html">SUBMIT</a></button>
+        <p>if you are new to this website? please register </p>
+        <button><a href="C:\Users\HP\Desktop\UI-Nafsha\CSS3\registration.html">Register</a></button>
+    </center>
+</form></body>
+</html>
